@@ -19,3 +19,6 @@ def hello_world():
 def about_me():
     return render_template("about_me.html")
 
+@app.route("/contact")
+def contact_me():
+    return render_template("contact_me.html")
